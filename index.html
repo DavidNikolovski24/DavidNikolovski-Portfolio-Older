@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/5d7d1d0d69.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -23,6 +27,16 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <i class="fa-sharp fa-solid fa-bars"></i>
+
+        <div id="dropdown">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -36,7 +50,10 @@
       </section>
       <section id="aboutMe">
         <div>
-          <h2><span>Hi. I'm</span> David Nikolovski.</h2>
+          <h2>
+            <span>Hi. I'm</span> <br />
+            David Nikolovski.
+          </h2>
           <p>
             I'm a Junior <span>Frontend Developer</span> on a mission to craft
             captivating user experiences in the digital world. With a strong
@@ -218,4 +235,18 @@
       <p>David Nikolovski 2023</p>
     </footer>
   </body>
+  <script>
+    const iTag = document.querySelector("nav i");
+    const dropDownDiv = document.querySelector("#dropdown");
+    let open = false;
+    iTag.addEventListener("click", () => {
+      if (open) {
+        dropDownDiv.style.display = "none";
+        open = !open;
+      } else {
+        dropDownDiv.style.display = "block";
+        open = !open;
+      }
+    });
+  </script>
 </html>
