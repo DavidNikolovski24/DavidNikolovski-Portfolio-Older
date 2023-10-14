@@ -130,7 +130,7 @@ const MenuParentDiv = styled.div<any>`
   min-height: 100vh;
   min-width: 40vw;
   margin-left: 60vw;
-  background-color: ${({ theme }) => theme.backgroundColor};
+  background-color: ${({ theme }) => theme.backgroundColorThird};
   z-index: -1;
   overflow: auto;
   transform: translateX(200%);

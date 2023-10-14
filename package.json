@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -21,6 +21,7 @@
     "gsap": "^3.12.2",
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
+    "react-alice-carousel": "^2.8.0",
     "react-animated-cursor": "^2.10.1",
     "react-dimmer": "^1.0.7",
     "react-dom": "^18.2.0",

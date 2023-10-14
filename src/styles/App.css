@@ -28,6 +28,9 @@ a {
   #davidImgContainer {
     display: none;
   }
+  .alice-carousel__wrapper {
+    padding-left: 0px !important;
+  }
 }
 /*  */
 html {

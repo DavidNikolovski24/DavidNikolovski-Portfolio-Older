@@ -29,7 +29,7 @@ function App() {
         scrollTrigger: {
           trigger: slider.current,
           pin: true,
-          scrub: 2,
+          scrub: 1,
           snap: 1 / (panels.length - 1),
           end: () => slider.current.offsetWidth,
         },
