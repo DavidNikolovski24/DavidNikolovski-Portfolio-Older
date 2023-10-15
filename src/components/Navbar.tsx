@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import BulbSwitcher from "./BulbSwitcher/BulbSwitcher";
 import { ReactDimmer } from "react-dimmer";
 import ResumePDF from "../assets/CV-DavidNikolovski(4).pdf";
+import FullLogo from "../assets/Logo/FullLogo.png";
 
 interface Props {
   changingTheme: string;
@@ -25,9 +26,11 @@ const Navbar = ({ changingTheme, setChangingTheme }: Props) => {
   return (
     <>
       <NavbarStyled>
-        <H1Styled>
-          <a href="#home">David Nikolovski</a>
-        </H1Styled>
+        <LogoContainer>
+          <a href="#home">
+            <LogoImg src={FullLogo} alt="Logo" />
+          </a>
+        </LogoContainer>
         <IconDiv>
           <BulbSwitcher
             changingTheme={changingTheme}
@@ -78,12 +81,14 @@ const Navbar = ({ changingTheme, setChangingTheme }: Props) => {
 
 export default Navbar;
 
-const H1Styled = styled.h1`
-  font-size: ${spacings.L}rem;
-  a {
-    color: ${({ theme }) => theme.textColor};
-  }
+const LogoImg = styled.img`
+  width: 10rem;
+  filter: ${({ theme }) => theme.logoFilter};
+  color: ${({ theme }) => theme.textColor};
+  transition: 0s !important;
 `;
+
+const LogoContainer = styled.div``;
 
 const NavbarStyled = styled.nav`
   color: ${({ theme }) => theme.textColor};
