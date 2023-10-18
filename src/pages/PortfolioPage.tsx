@@ -47,8 +47,9 @@ const PortfolioPage = () => {
     
     -Client requirement was this app to be mobile only.
     
-    -My side of job was to build only frontend side. db.json is temporary solution until backend comes in."
+    -My side of job was to build only frontend side. firebase is temporary solution until backend comes in."
       link="https://github.com/DavidNikolovski24/velnes.mk"
+      websiteLink="https://velnes-mk.vercel.app/"
     />,
     <ProjectCard
       key={2}

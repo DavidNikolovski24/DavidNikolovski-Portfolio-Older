@@ -83,7 +83,8 @@ const AboutPage = () => {
               <SpanHighlight> MUI </SpanHighlight>,
               <SpanHighlight> SCSS / SASS </SpanHighlight>,
               <SpanHighlight> Bootstrap </SpanHighlight>,
-              <SpanHighlight> GSAP </SpanHighlight>
+              <SpanHighlight> GSAP </SpanHighlight>,
+              <SpanHighlight> Firebase </SpanHighlight>
             </p>
           </div>
           <div id="uxui">

@@ -6,9 +6,10 @@ interface Props {
   title: string;
   desc: string;
   link: string;
+  websiteLink?: string;
 }
 
-const ProjectCard = ({ title, img, desc, link }: Props) => {
+const ProjectCard = ({ title, img, desc, link, websiteLink }: Props) => {
   let splitedText = desc.split("-");
 
   let paragraphs = splitedText.map((p) => <p key={p}>-{p}</p>);
@@ -22,6 +23,11 @@ const ProjectCard = ({ title, img, desc, link }: Props) => {
           <a href={link} target="_blank">
             SOURCE CODE
           </a>
+          {websiteLink && (
+            <a href={websiteLink} target="_blank">
+              VISIT WEBSITE
+            </a>
+          )}
         </figcaption>
       </ImageContainer>
     </CardContainer>
@@ -110,7 +116,7 @@ const CardContainer = styled.div.attrs({
     letter-spacing: 1px;
     margin: 0;
     text-transform: uppercase;
-    margin-bottom: ${spacings.XS}rem;
+
     font-weight: 900;
   }
 
