@@ -23,11 +23,10 @@ const ProjectCard = ({ title, img, desc, link, websiteLink }: Props) => {
           <a href={link} target="_blank">
             SOURCE CODE
           </a>
-          {websiteLink && (
-            <a href={websiteLink} target="_blank">
-              VISIT WEBSITE
-            </a>
-          )}
+
+          <a href={websiteLink} target="_blank">
+            {websiteLink ? "VISIT WEBSITE" : "LINK NOT AVAILABLE"}
+          </a>
         </figcaption>
       </ImageContainer>
     </CardContainer>

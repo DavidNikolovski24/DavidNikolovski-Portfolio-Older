@@ -63,6 +63,7 @@ const PortfolioPage = () => {
     
     -This project is built in vanilla JavaScript. SASS was used for the styling system."
       link="https://github.com/DavidNikolovski24/street-artists"
+      websiteLink="https://street-artists-zeta.vercel.app/"
     />,
     <ProjectCard
       key={3}
@@ -83,6 +84,7 @@ const PortfolioPage = () => {
       title="Portfolio Website"
       desc="This Masterpiece 😍"
       link="https://github.com/DavidNikolovski24/DavidNikolovski24.github.io"
+      websiteLink="https://davidnikolovski24.github.io/"
     />,
   ];
 
