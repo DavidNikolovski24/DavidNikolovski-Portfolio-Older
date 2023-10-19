@@ -904,7 +904,7 @@ and limitations under the License.
     \r
     -An API has been added for simulation where it simulates another guest placing bids on an auction.\r
     \r
-    -This project is built in vanilla JavaScript. SASS was used for the styling system.`,link:"https://github.com/DavidNikolovski24/street-artists"},2),U.jsx(xu,{img:vP,title:"Online Shop",desc:`-The purpose of this project was to practice and do a small review of my Next 12 with TypeScript.\r
+    -This project is built in vanilla JavaScript. SASS was used for the styling system.`,link:"https://github.com/DavidNikolovski24/street-artists",websiteLink:"https://street-artists-zeta.vercel.app/"},2),U.jsx(xu,{img:vP,title:"Online Shop",desc:`-The purpose of this project was to practice and do a small review of my Next 12 with TypeScript.\r
 \r
     -The main idea was to create a basic online shop where customers can look available products that shop offers.\r
     \r
