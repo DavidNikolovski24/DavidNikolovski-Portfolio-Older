@@ -10,7 +10,7 @@ import velnesPng from "../assets/images/velnes.png";
 import onlineShopPng from "../assets/images/onlineShop.png";
 import portfolioPng from "../assets/images/portfolio.png";
 import "react-alice-carousel/lib/alice-carousel.css";
-
+import theMoneySolicitorPng from "../assets/images/themoney.png";
 gsap.registerPlugin(ScrollTrigger);
 
 const PortfolioPage = () => {
@@ -85,6 +85,14 @@ const PortfolioPage = () => {
       desc="This Masterpiece 😍"
       link="https://github.com/DavidNikolovski24/DavidNikolovski24.github.io"
       websiteLink="https://davidnikolovski24.github.io/"
+    />,
+    <ProjectCard
+      key={5}
+      img={theMoneySolicitorPng}
+      title="The Money Solicitor"
+      desc="I am tasked with developing the frontend component of our project, utilizing TypeScript for the coding foundation. My primary focus will be on creating responsive and visually appealing user interfaces using styled-components for seamless styling integration. By combining the power of TypeScript with the flexibility of styled-components, I aim to deliver a highly dynamic and elegant user interface that enhances the overall user experience of our project."
+      link="https://github.com/DavidNikolovski24/themoneysolicitor"
+      websiteLink="https://themoneysolicitor-ppsn.vercel.app/"
     />,
   ];
 

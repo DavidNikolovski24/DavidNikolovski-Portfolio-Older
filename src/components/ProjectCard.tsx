@@ -99,10 +99,12 @@ const CardContainer = styled.div.attrs({
     a {
       color: ${({ theme }) => theme.backgroundColor};
       background-color: ${({ theme }) => theme.textColor};
-      display: inline-block;
+
       margin-top: ${spacings.XS}rem;
       padding: 10px 20px;
       border-radius: 10px;
+
+      display: none;
       &:hover {
         background-color: ${({ theme }) => theme.backgroundColorThird};
         color: ${({ theme }) => theme.textColor};
@@ -129,6 +131,9 @@ const CardContainer = styled.div.attrs({
     opacity: 1;
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
+    a {
+      display: inline-block;
+    }
   }
 `;
 
