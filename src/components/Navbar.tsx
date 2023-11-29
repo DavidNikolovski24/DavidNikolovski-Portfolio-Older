@@ -4,7 +4,7 @@ import { Cross as Hamburger } from "hamburger-react";
 import { useEffect, useState } from "react";
 import BulbSwitcher from "./BulbSwitcher/BulbSwitcher";
 import { ReactDimmer } from "react-dimmer";
-import ResumePDF from "../assets/CV-DavidNikolovski(4).pdf";
+import ResumePDF from "../assets/DavidNikolovskiResume (5).pdf";
 import FullLogo from "../assets/Logo/FullLogo.png";
 
 interface Props {
